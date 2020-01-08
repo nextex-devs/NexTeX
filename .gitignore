@@ -6,6 +6,13 @@
 *.jpeg
 *.eps
 
+# TeX
+__latexindent_temp.tex
+*.blg
+
+# Jupyter
+*.nbconvert.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
