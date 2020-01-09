@@ -9,4 +9,6 @@ dependencies:
   - python=3.7.6
   - jupyter
   - numpy=1.16
+pip:
+  - lightkurve=1.6.0
 prefix: ./env
