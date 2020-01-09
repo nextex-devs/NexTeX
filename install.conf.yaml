@@ -1,5 +1,5 @@
-- clean: []
+- clean: ['~']
 - link:
   ~/nextex.cls: nextex.cls/
 - shell:
-  - git submodule sync --recursive
+  - [git submodule update --init --recursive, Installing submodules]
