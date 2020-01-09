@@ -15,7 +15,7 @@ jobs:
            python-version: 3.7
       - name: Compile the paper
         shell: bash -l {0}
-        run: make -C tex
+        run: cd tex && make
       - name: Upload the paper
         env:
           GITHUB_USER: ${{ secrets.GITHUB_USER }}
