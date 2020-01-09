@@ -3,7 +3,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - bzip2=1.0.8=h0b31af3_2
   - ca-certificates=2019.11.28=hecc5488_0
   - cairo=1.16.0=he1c11cd_1002
   - certifi=2019.11.28=py37_0
@@ -36,7 +35,7 @@ dependencies:
   - pip=19.3.1=py37_0
   - pixman=0.38.0=h01d97ff_1003
   - pyparsing=2.4.6=py_0
-  - python=3.7.3=h5c2c468_2
+  - python=3.7.6=h5c2c468_2
   - python-dateutil=2.8.1=py_0
   - readline=8.0=hcfe32e1_0
   - setuptools=44.0.0=py37_0
