@@ -9,6 +9,7 @@ NEXTEX_BIN="bin/nextex.cls"
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cd "${BASEDIR}"
+git -C "${NEXTEX_DIR}" submodule sync --quiet --recursive
 git submodule update --init --recursive "${NEXTEX_DIR}"
 
 "${BASEDIR}/${NEXTEX_DIR}/${NEXTEX_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"

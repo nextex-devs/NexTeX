@@ -1,3 +1,4 @@
 - clean: []
 - link: {}
-- shell: [git submodule update --init --recursive]
+- shell:
+  - git submodule sync --recursive
