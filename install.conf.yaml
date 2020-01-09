@@ -1,4 +1,5 @@
 - clean: []
-- link: {}
+- link:
+  ~/nextex.cls: nextex.cls/
 - shell:
   - git submodule sync --recursive
